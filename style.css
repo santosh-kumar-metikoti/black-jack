@@ -1,0 +1,158 @@
+#title
+{
+  text-align: center;
+}
+
+
+body {
+  background-image:url("https://cdn.dribbble.com/users/2439011/screenshots/8075640/media/5439a282e3dd0b1234940aae8bcabfae.gif");
+  background-repeat: no-repeat;
+  font-size: 22px;
+  color: #dbd6d3;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+}
+
+p{
+  color:rgb(255, 255, 255);
+  font-size: 2pc;
+  font-weight: bold;
+}
+
+#gifi{
+  width:10px;
+  height:10px;
+  float: right;
+}
+#title {
+  padding-left: 30px;
+}
+#text-area {
+  padding-left: 30px;
+}
+#new-game-button {
+  float: right;
+  background-color: rgb(145, 196, 121);
+  color: black;
+  padding: 20px 60px;
+  text-align: center;
+  margin-left: 600px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  display: block;
+  margin: auto;
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -104.5px; /*104.5px is half of the button's width*/
+}
+
+#new-game-button:hover {
+  cursor:grab;
+  background-color: rgb(211, 223, 211);
+}
+
+#image-area{
+  float: left;
+  width:5%;
+  height:5%
+}
+
+#hit-button {
+  color: black;
+  padding: 12px 28px;
+  text-align: center;
+  margin-left: 600px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  display: block;
+  margin: auto;
+}
+
+#hit-button:hover {
+  cursor: pointer;
+  background-color: rgb(159, 185, 159);
+}
+
+#stay-button {
+  color: black;
+  padding: 12px 28px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 8px;
+  display: block;
+  margin: auto;
+}
+
+#stay-button:hover {
+  cursor: grabbing;
+  background-color: rgb(202, 181, 181);
+}
+
+@media screen and (max-width: 768px) {
+
+}
+h2{
+  color:rgb(48, 168, 98);
+  font-weight: bold;
+}
+
+#image-area1{
+  width: 7%;
+  height: 7%;
+}
+#image-area2{
+  width: 7%;
+  height: 7%;
+}
+#image-area3{
+  width: 7%;
+  height: 7%;
+}
+#image-area4{
+  width: 7%;
+  height: 7%;
+}
+#image-area5{
+  width: 7%;
+  height: 7%;
+}
+#image-area6{
+  width: 7%;
+  height: 7%;
+}
+#image-area7{
+  width: 7%;
+  height: 7%;
+}
+#image-area8{
+  width: 7%;
+  height: 7%;
+}
+#image-area9{
+  width: 7%;
+  height: 7%;
+}
+#image-area10{
+  width: 7%;
+  height: 7%;
+}
+
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
